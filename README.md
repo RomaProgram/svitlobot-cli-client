@@ -25,11 +25,51 @@ pip install requests
 ```
 
 ### Для Linux:
+
 Відкрийте Термінал і введіть:
+
+### Для Debian дистрибутивів
+```
+sudo apt install pipx
+```
+### Arch Linux
+```
+sudo pacman -S python-pipx
+```
+### Fedora
+```
+sudo dnf install python3-pip
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+```
+### OpenSuse
+```
+sudo zypper install python3-pip
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+```
+### Gentoo
+```
+sudo emerge --ask dev-python/pipx
+```
+### Alpine Linux
+```
+sudo apk add py3-pip
+pip3 install pipx
+pipx ensurepath
+```
+### Solus
+```
+sudo eopkg install python3-pip
+pip3 install pipx
+pipx ensurepath
+
+```
+### Встановлення бібліотеки
+
 ```
 pipx install requests
 ```
-
 ## Запуск CLI Світлобота
 
 1. Завантажте файл `svitlobot-cli.py` зі сторінки GitHub
