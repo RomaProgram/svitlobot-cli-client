@@ -63,7 +63,6 @@ pipx ensurepath
 sudo eopkg install python3-pip
 pip3 install pipx
 pipx ensurepath
-
 ```
 ### Встановлення бібліотеки
 
